@@ -5,7 +5,7 @@ interface IContainerProps {
 }
 
 const Container: React.FunctionComponent<IContainerProps> = ({ children }) => {
-  return <div className="container mx-auto">{children}</div>;
+  return <div className="container min-w-full ">{children}</div>;
 };
 
 export default Container;

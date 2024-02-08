@@ -1,23 +1,26 @@
 import * as React from "react";
-import Nav from "./Nav";
+import Header from "./Header";
 import Footer from "./Footer";
+import RootLayout from "@/app/layout";
 
-type PropsWithChildren={
-  children: React.ReactNode
-}
+type PropsWithChildren = {
+  children: React.ReactNode;
+};
 
 const Layout: React.FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div className="flex flex-col">
-      {/* nav here */}
-      <Nav />
+    <RootLayout>
+      <div className="flex flex-col">
+        {/* Header here */}
+        <Header />
 
-      {/* main here */}
-      <main>{children}</main>
+        {/* main here */}
+        <main>{children}</main>
 
-      {/* footer here */}
-      <Footer />
-    </div>
+        {/* footer here */}
+        <Footer />
+      </div>
+    </RootLayout>
   );
 };
 
