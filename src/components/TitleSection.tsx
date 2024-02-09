@@ -3,7 +3,7 @@ import React from "react";
 type TitleSectionProps = {
   title: string;
   description: string;
-  dark: string;
+  dark?: string;
 };
 
 const TitleSection = ({ title, description, dark }: TitleSectionProps) => {
@@ -17,7 +17,9 @@ const TitleSection = ({ title, description, dark }: TitleSectionProps) => {
       >
         {title}
       </h1>
-      <p className={`text-base font-normal leading-7 text-gray-600 dark:text-${dark}`}>
+      <p
+        className={`text-base font-normal leading-7 text-gray-600 dark:text-${dark}`}
+      >
         {description}
       </p>
     </div>
