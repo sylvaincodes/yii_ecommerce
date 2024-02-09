@@ -6,7 +6,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import Link from "next/link";
 
 interface MobileMenuProps{
-  menu: string;
+  menu: Array<any>;
   openMobileMenu: boolean;
   setOpenMobileMenu: any
 }
