@@ -8,6 +8,8 @@ export interface IDropmenuProps {
   submenu: Array<{
     label: string;
     href: string;
+    content: string;
+    icon: string;
   }>;
 }
 

@@ -28,10 +28,14 @@ export default function Nav() {
         {
           label: "t-shirt",
           href: "/products/t-shirt",
+          content: "consulter le catalogue",
+          icon: "CiCircleList ",
         },
         {
           label: "chapeau",
           href: "/products/chapeau",
+          content: "consulter le catalogue",
+          icon: "CiCircleList ",
         },
       ],
     },
@@ -43,12 +47,14 @@ export default function Nav() {
       href: "/signup",
       content: "créer un compte",
       icon: "CiImport   ",
+      submenu: [],
     },
     {
       label: "Se connecter",
       href: "/login",
       content: "s'authentifier sur le iste",
       icon: "CiLogin  ",
+      submenu: [],
     },
   ];
 
