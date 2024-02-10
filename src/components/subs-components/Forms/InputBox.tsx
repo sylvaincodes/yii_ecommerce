@@ -2,7 +2,10 @@ import React from "react";
 
 const Input = ({ btn }: { btn: string }) => {
   return (
-    <div className="w-3/6 relative p-2 sm:border sm:border-gray-400 group sm:rounded-xl sm:focus-within:ring-1 sm:focus-within:ring-gray-900 sm:focus-within:border-gray-900">
+    <div className="flex flex-col text-center w-5/6 relative 
+    p-2 sm:border sm:border-gray-400  
+    sm:rounded-xl sm:focus-within:ring-1  
+    sm:focus-within:ring-gray-900 sm:focus-within:border-gray-900 md:w-3/6 ">
       <input
         className="block w-full px-4 py-4 text-gray-900 
         placeholder-gray-900 

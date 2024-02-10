@@ -6,7 +6,7 @@ import GridItems from "./GridItems";
 const listPopulars = [
   {
     image: "/images/products/p_1.jpg",
-    title: "Turtle Beach Recon 50 Gaming Headset for PS5",
+    title: "Turtle Beach Recon 50",
     sales: 10,
     price: 39,
     category: "hot",
@@ -33,7 +33,7 @@ const listPopulars = [
   },
   {
     image: "/images/products/p_4.jpg",
-    title: "Jabra Evolve 20 UC Wired Headset,",
+    title: "Jabra Evolve 20 UC Wired",
     sales: 10,
     price: 43,
     category: "promo",
@@ -45,16 +45,14 @@ const listPopulars = [
 const FeaturedItems = () => {
   return (
     <Container mx="auto">
-      <div
-      className="flex flex-col gap-y-10 font-body px-10 dark:text-white mt-20">
+      <div className="flex flex-col gap-y-10 font-body px-10 dark:text-white mt-20">
         <TitleSection
           dark="white"
           title="les articles populaires"
           description="Une selection particulière de nos meilleurs articles du catalogue préférés par nos plus fidèles clients ."
         />
         <div
-          className="grid grid-cols-2 lg:gap-4 lg:grid-cols-4 gap-6 
-          "
+          className="grid grid-cols-2 lg:gap-4 lg:grid-cols-4 gap-6"
         >
           {listPopulars &&
             listPopulars.map((single, idx) => {

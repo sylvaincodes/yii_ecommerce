@@ -50,10 +50,10 @@ export default function Nav() {
       submenu: [],
     },
     {
-      label: "Se connecter",
+      label: "Panier 🛒",
       href: "/login",
       content: "s'authentifier sur le iste",
-      icon: "CiLogin  ",
+      icon: "",
       submenu: [],
     },
   ];

@@ -50,13 +50,13 @@ const GridItems = ({ data }: GridItemsProps) => {
         </div>
       </div>
 
-      <div className="grid grid-cols-2 p-2">
-        <div className="">
-          <h1 className="font-bold">{data.title}</h1>
+      <div className="grid grid-cols-2 auto-cols-max p-2">
+        <div className="col-span-1">
+          <h1 className="font-bold text-xs md:text-xl">{data.title}</h1>
           <span className="font-lighter text-sm">({data.sales}) ventes</span>
         </div>
         <div
-          className="ms-auto text-primary-600 text-2xl font-semibold 
+          className="ms-auto text-primary-600 text-xs md:text-2xl font-semibold 
         dark:text-white"
         >
           $ {data.price}

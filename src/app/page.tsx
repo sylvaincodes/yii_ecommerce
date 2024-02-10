@@ -21,13 +21,13 @@ export const metadata: Metadata = {
   keywords: "nextjs,react,ecommerce, react, musik",
 
   icons: [
-    { rel: "icon", url: "https://yii-ecommerce.vercel.com/icon.svg" },
+    { rel: "icon", url: "https://yii.vercel.com/icon.svg" },
     {
       rel: "apple-touch-icon",
-      url: "https://yii-ecommerce.vercel.com/icon.svg",
+      url: "https://yii.vercel.com/icon.svg",
     },
   ],
-  manifest: "https://yii-ecommerce.vercel.com/manifest.json",
+  manifest: "https://yii.vercel.com/manifest.json",
   category: "Next Js 14 Ecommerce",
 };
 
@@ -40,9 +40,8 @@ const Page: NextPage<Props> = () => {
         <Providers>
           <div className="flex flex-col h-screen">
             <div
-              className="min-h-full bg-cover 
-                  bg-[url('/images/bg/bg.jpg')] 
-                  md:bg-[url('/images/bg/hero-desktop.jpg')]}"
+              className="min-h-full bg-cover bg-top
+                  bg-[url('/images/bg/bg.jpg')]"
             >
               <Header />
               <Hero />

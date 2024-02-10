@@ -8,16 +8,21 @@ export default function Hero() {
     <Container>
       <div
         className="h-full flex flex-col justify-start items-center 
-      md:items-start px-10 pt-10 gap-10 mt-40 mx-auto bg-left"
+      md:items-start px-10 pt-0 gap-10 mt-40 mx-auto bg-left"
       >
         <h1
-          className="animate__animated animate__flipInX text-center text-2xl md:text-3xl  tracking-widest 
-        font-extrabold text-black uppercase"
+          className="animate__animated animate__flipInX 
+          text-center uppercase
+          font-extrabold text-black sm:text-black 
+          text-4xl sm:text-5xl lg:text-6xl xl:text-7xl"
         >
           le son compte
         </h1>
         <p
-          className="animate__animated animate__flipInX animate__delay-1s text-center text-xl capitalize font-lighter text-black
+          className="animate__animated animate__flipInX 
+          animate__delay-1s text-center 
+          capitalize font-normal text-black sm:text-black 
+          text-xl sm:text-2xl lg:text-3xl xl:text-4xl
         "
         >
           écoute la musique différemment

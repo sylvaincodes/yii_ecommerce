@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <Container>
       <div
-        className={`border-0 border-gray-200 
+        className={`font-body border-0 border-gray-200 
         py-20 mt-0 mx-auto`}
       >
         <div className="flex flex-col gap-2 items-center">

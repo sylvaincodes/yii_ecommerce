@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-interface LogoProps{
+interface LogoProps {
   text: string;
 }
 
@@ -10,7 +10,7 @@ const Logo = ({ text }: LogoProps) => {
     <div>
       <Link
         href="/"
-        className=" text-white md:text-black
+        className=" text-primaty-800 md:text-black
         font-body text-4xl 
           font-extrabold tracking-wider dark:text-white
           capitalize"

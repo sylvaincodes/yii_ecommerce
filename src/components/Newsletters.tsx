@@ -1,7 +1,7 @@
 import Container from "./Container";
 import TitleSection from "./TitleSection";
 import React from "react";
-import Input from "./subs-components/Forms/Input";
+import Input from "./subs-components/Forms/InputBox";
 
 const Newsletters = () => {
   return (
